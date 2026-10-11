@@ -1,27 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selby Gurung | {Personal Website}</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="hobbies.html">Hobbies & Creative</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <body>
+
+    <header class="header">
+        <a href="Home" class="logo">
+            Selby <span>Gurung</span>
+        </a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href = "#Home">Home</a>
+            <a href = "#About">About</a>
+            <a href = "#Contact">Contact</a>
         </nav>
+
+        <button class="gradient-btn">Contact Me</button>
+      
+        
     </header>
 
-    <main>
-        <h1>Welcome to My Website!</h1>
-        <p>Hi, I'm Selby. Explore my projects, creative hobbies, and journey here.</p>
-    </main>
-</body>
+    <section class="Home" id="Home">
+      <div class="Home-content">
+        <h2> NEW YORK UNIVERSITY | CLASS OF 2030</h2>
+        <h1>
+          Hello! It's <span>Selby.</span>
+        </h1>
+        <p>
+          I’m a first-year student studying Computer Science at New York University. I'm still exploring the realms within Computer Science, but I'm currently learning Python in school, while also trying to learn other technical skills like web dev and Git using tools like VS Code and GitHub.
+        </p>
+
+        <div class="social-icons">
+          <a href="#">
+            <i class="bx bxl-github"></i>
+          </a>
+
+          <a href="#">
+            <i class="bx bxl-linkedin-square"></i>
+          </a>
+
+          <a href ="#">
+            <i class="bx bxl-instagram"></i>
+          </a>
+
+        </div>
+
+        <div class="btn-group">
+          <a href= "#Resume" class="btn">Resume</a>
+          <a href="#Contact" class="btn">Contact</a>
+        </div>
+
+      </div>
+
+      <div class="Home-image">
+        <img src ="self-image.png" alt="">
+      </div>
+    </section>
+
+    <section class="About" id="About">
+      <p>01 | About Me</p>
+      <div class="About-image">
+        <img src="self-image.png" alt="">
+        <h2>Who <span>I</span> Am</h2>
+          <p> I’m a first-year student studying Computer Science at New York University. I'm still exploring the realms within Computer Science, but I'm currently learning Python in school, while also trying to learn other technical skills like web dev and Git using tools like VS Code and GitHub.</p>
+          <p>What got me into Computer Science is its versatility, which enables me to work in any domain from anywhere in the world, whether that'd be in aviation, at a big financial company, or a small non-profit.</p>
+          <p>Beyond coding and building on my technical skills, you can find me experimenting with new recipes, sketching buildings, or going down the rabbit hole of conspiracy theories!</p>
+          <a href="Read More" class="btn">Read More</a>
+      </div>
+    </section>
+    
+    <script src="script.js"></script>
+  </body>
 </html>
