@@ -1,0 +1,25 @@
+/*main page styles*/
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 20;
+    background-color: #f9c0ec; 
+    color: hsl(324, 54%, 56%); /* text color */
+}
+
+/*navigation links styles*/
+nav a {
+    color: hsl(324, 54%, 56%); /* link color */
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* headings styles */
+h1 {
+    color: 
+}
